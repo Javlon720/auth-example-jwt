@@ -1,0 +1,14 @@
+{
+    "name": "auth",
+    "description": "okay",
+    "private": true,
+    "author": {
+        "email": "abdullayevjavlon720@gmail.com",
+        "name": "Javlon"
+    },
+    "scripts": {
+        "dev:api": "pnpm --filter api run dev",
+        "dev:web": "pnpm --filter web run dev",
+        "dev": "pnpm -r --parallel run dev"
+    }
+}
